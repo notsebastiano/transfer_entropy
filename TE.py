@@ -21,7 +21,7 @@ def transfer_entropy(X,Y,delay=1,gaussian_sigma=None):
 			time series of scalars (1D array)
 	kwargs:
 		- delay (int): 
-			step in tuple (x_n, y_n, x_(n - delay))
+			step in tuple (x_n, y_{n - delay}, x_(n - delay))
 		- gaussian_sigma (int):
 			sigma to be used
 			default set at None: no gaussian filtering applied
