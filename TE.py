@@ -7,9 +7,10 @@ from scipy import ndimage
 def transfer_entropy(X,Y,delay=1,gaussian_sigma=None):
 	'''
 	TE implementation: asymmetric statistic measuring the reduction in uncertainty
-	for a future value of X given the history of X and Y. Or the amount
-	of information from Y to X. Calculated through the Kullback-Leibler divergence 
-	with conditional probabilities
+	for a future value of X given the history of X and Y.
+	Calculated through the Kullback-Leibler divergence with conditional probabilities
+
+	Quantifies the amount of information from Y to X.
 
 	author: Sebastiano Bontorin
 	mail: sbontorin@fbk.eu
