@@ -15,7 +15,7 @@ Transfer entropy (TE) between an auto-correlated time series Y and a derived tim
 
 - X is then computed as a lagged and noisy linear combination of Y and K:
 
-    - $ X[t] = W_Y \cdot Y[t-T_{LAG}] + (1- W_Y) \cdot K[t-T_{LAG}] $
+    - $X[t] = W_Y \cdot Y[t-T_{LAG}] + (1- W_Y) \cdot K[t-T_{LAG}]$
     - The $T_{LAG}$ determines the time lag with which X is generated as a shifted version of Y and K.
     - The weight parameter $W_{Y}$ determines how much Y contributes to X.
 
