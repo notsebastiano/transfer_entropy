@@ -2,6 +2,12 @@ import numpy as np
 from scipy import stats
 from scipy import ndimage
 
+"""
+Transfer Entropy -- https://github.com/notsebastiano/transfer_entropy
+
+Contributor:
+	 Sebastiano Bontorin (sbontorin@fbk.eu)
+"""
 
 
 def transfer_entropy(X,Y,delay=1,gaussian_sigma=None):
