@@ -1,8 +1,8 @@
 # Transfer Entropy (TE)
 
-Implementation in python3 of transfer entropy statistic between two time series. Refer to the function `transfer_entropy(X, Y, delay)` present in `TE.py`.
-
 Transfer entropy from Y to X, where X,Y are two random processes, is an asymmetric statistic introduced by [Schreiber2000], which measures the reduction in uncertainty for a future value of X given the history of X and Y. Or the amount of information from Y to X. Calculated through the Kullback-Leibler divergence with conditional probabilities.
+
+Implementation in python3 of transfer entropy statistic between two time series. Refer to the function `transfer_entropy(X, Y, delay)` present in `TE.py`.
 
 
 ## Transfer Entropy Example:
