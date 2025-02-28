@@ -27,7 +27,7 @@ Transfer entropy (TE) between an auto-correlated time series Y and a derived tim
 - The 'delay' parameter is set here as 'delay = $T_{LAG}$ = 3' to instead focus on the effect of different $W_{Y}$ values
 
 
-![png](README_files/fig1.png)
+![png](README_files/fig1_001.png)
 
 
 ### TE(Y → X) vs Delay parameter in transfer entropy estimation
